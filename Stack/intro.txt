@@ -1,0 +1,18 @@
+
+What is Stack??
+
+    Stack is an abstract data type (ADT) and very useful in programming.
+    In computer science, a stack is an abstract data type that serves as a collection of elements.
+    Majorly all the operations are done at only one end of the stack which is top of the stack.
+    The order in which elements in stack are stored is with LIFO (Last-in-First-Out) manner.
+    Means the element inserted last will be removed first.
+Operation on Stack
+
+    Initialize a topIndex = -1;
+
+    For push() operation- increment topIndex by 1 and add element at this index in array. Time- O(1)
+    For pop() operation- remove element from the topIndex, decrement topIndex by. Time- O(1)
+    For peek() operation- return the element from the topIndex. Time- O(1)
+    For isEmpty() operation- check if topIndex<0 then return true else false. Time- O(1)
+    For getSize() operation- return the topindex+1. Time- O(1)
+
